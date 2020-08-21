@@ -1,0 +1,272 @@
+{
+	"textures": [
+		{
+			"image": "BowlerSprite.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 503,
+				"h": 895
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "BOWLER 12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1207,
+						"y": 1045,
+						"w": 162,
+						"h": 414
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 414
+					}
+				},
+				{
+					"filename": "BOWLER 10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1212,
+						"y": 1000,
+						"w": 110,
+						"h": 411
+					},
+					"frame": {
+						"x": 0,
+						"y": 414,
+						"w": 110,
+						"h": 411
+					}
+				},
+				{
+					"filename": "BOWLER 11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1213,
+						"y": 1105,
+						"w": 149,
+						"h": 329
+					},
+					"frame": {
+						"x": 162,
+						"y": 0,
+						"w": 149,
+						"h": 329
+					}
+				},
+				{
+					"filename": "BOWLER 8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1219,
+						"y": 1049,
+						"w": 101,
+						"h": 332
+					},
+					"frame": {
+						"x": 311,
+						"y": 0,
+						"w": 101,
+						"h": 332
+					}
+				},
+				{
+					"filename": "BOWLER 2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1201,
+						"y": 1121,
+						"w": 91,
+						"h": 226
+					},
+					"frame": {
+						"x": 412,
+						"y": 0,
+						"w": 91,
+						"h": 226
+					}
+				},
+				{
+					"filename": "BOWLER 9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1223,
+						"y": 1021,
+						"w": 89,
+						"h": 377
+					},
+					"frame": {
+						"x": 110,
+						"y": 414,
+						"w": 89,
+						"h": 377
+					}
+				},
+				{
+					"filename": "BOWLER 7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1229,
+						"y": 1079,
+						"w": 104,
+						"h": 307
+					},
+					"frame": {
+						"x": 199,
+						"y": 329,
+						"w": 104,
+						"h": 307
+					}
+				},
+				{
+					"filename": "BOWLER 6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1198,
+						"y": 1085,
+						"w": 114,
+						"h": 294
+					},
+					"frame": {
+						"x": 303,
+						"y": 332,
+						"w": 114,
+						"h": 294
+					}
+				},
+				{
+					"filename": "BOWLER 3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1204,
+						"y": 1117,
+						"w": 86,
+						"h": 239
+					},
+					"frame": {
+						"x": 417,
+						"y": 226,
+						"w": 86,
+						"h": 239
+					}
+				},
+				{
+					"filename": "BOWLER 4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1194,
+						"y": 1110,
+						"w": 100,
+						"h": 255
+					},
+					"frame": {
+						"x": 199,
+						"y": 636,
+						"w": 100,
+						"h": 255
+					}
+				},
+				{
+					"filename": "BOWLER 1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1196,
+						"y": 1121,
+						"w": 90,
+						"h": 220
+					},
+					"frame": {
+						"x": 299,
+						"y": 636,
+						"w": 90,
+						"h": 220
+					}
+				},
+				{
+					"filename": "BOWLER 5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2551,
+						"h": 2490
+					},
+					"spriteSourceSize": {
+						"x": 1201,
+						"y": 1102,
+						"w": 97,
+						"h": 269
+					},
+					"frame": {
+						"x": 389,
+						"y": 626,
+						"w": 97,
+						"h": 269
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:73f354c0d8b6d1ef7d28e2ee1f0af843:af7fc746c2d3e4e11eb4047d16e12672:433d45182100663e5b4b1cf8f6ddc52d$"
+	}
+}

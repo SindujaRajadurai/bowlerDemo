@@ -1,0 +1,356 @@
+{
+	"textures": [
+		{
+			"image": "wicketStump.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 477,
+				"h": 1282
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Wicket Animation-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 254
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 254
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 254
+					}
+				},
+				{
+					"filename": "Wicket Animation-1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 196
+					},
+					"frame": {
+						"x": 159,
+						"y": 0,
+						"w": 159,
+						"h": 196
+					}
+				},
+				{
+					"filename": "Wicket Animation-2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 213
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 159,
+						"h": 213
+					}
+				},
+				{
+					"filename": "Wicket Animation-3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 210
+					},
+					"frame": {
+						"x": 0,
+						"y": 254,
+						"w": 159,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Wicket Animation-4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 223
+					},
+					"frame": {
+						"x": 159,
+						"y": 254,
+						"w": 159,
+						"h": 223
+					}
+				},
+				{
+					"filename": "Wicket Animation-5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 234
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 234
+					},
+					"frame": {
+						"x": 318,
+						"y": 254,
+						"w": 159,
+						"h": 234
+					}
+				},
+				{
+					"filename": "Wicket Animation-6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 228
+					},
+					"frame": {
+						"x": 0,
+						"y": 488,
+						"w": 159,
+						"h": 228
+					}
+				},
+				{
+					"filename": "Wicket Animation-7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 222
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 222
+					},
+					"frame": {
+						"x": 159,
+						"y": 488,
+						"w": 159,
+						"h": 222
+					}
+				},
+				{
+					"filename": "Wicket Animation-8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 212
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 212
+					},
+					"frame": {
+						"x": 318,
+						"y": 488,
+						"w": 159,
+						"h": 212
+					}
+				},
+				{
+					"filename": "Wicket Animation-9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 197
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 197
+					},
+					"frame": {
+						"x": 0,
+						"y": 716,
+						"w": 159,
+						"h": 197
+					}
+				},
+				{
+					"filename": "Wicket Animation-10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 185
+					},
+					"frame": {
+						"x": 159,
+						"y": 716,
+						"w": 159,
+						"h": 185
+					}
+				},
+				{
+					"filename": "Wicket Animation-11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 172
+					},
+					"frame": {
+						"x": 318,
+						"y": 716,
+						"w": 159,
+						"h": 172
+					}
+				},
+				{
+					"filename": "Wicket Animation-12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 186
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 186
+					},
+					"frame": {
+						"x": 0,
+						"y": 913,
+						"w": 159,
+						"h": 186
+					}
+				},
+				{
+					"filename": "Wicket Animation-13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 186
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 186
+					},
+					"frame": {
+						"x": 159,
+						"y": 913,
+						"w": 159,
+						"h": 186
+					}
+				},
+				{
+					"filename": "Wicket Animation-14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 186
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 186
+					},
+					"frame": {
+						"x": 318,
+						"y": 913,
+						"w": 159,
+						"h": 186
+					}
+				},
+				{
+					"filename": "Wicket Animation-15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 183
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 183
+					},
+					"frame": {
+						"x": 0,
+						"y": 1099,
+						"w": 159,
+						"h": 183
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:955f3dafc7ef80f3077b0e97432ba165:0c955311946912dd11154dbbfc256eed:f0b18c98cef5319d4f33ac4c3dd856f5$"
+	}
+}
