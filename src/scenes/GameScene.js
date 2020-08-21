@@ -23,7 +23,9 @@ class GameScene extends Phaser.Scene {
 		this.wicketPos = 1300;
 		this.groundBoundary = 1900;
 	}
-
+/*********************************************************************************
+ *  generate bowler's Animation
+ */
 	generateAnimations() {
 		var frameNames = this.textures.get('bowlerSprite').getFrameNames();
 		this.anims.create({
@@ -77,7 +79,11 @@ class GameScene extends Phaser.Scene {
 	   this.ball = this.add.image(config.width * 0.5, config.height * 0.12, "ball")
 						   .setAlpha(0).setScale(0.2);
 	}
-
+/*********************************************************************************
+ *  Adds the button positions it
+ *  Set its interactive property 
+ *  Adds callback
+ */
 	addBowlButton() {
 		this.play = this.add.image(config.width * 0.5, config.height * 0.12, "play")
 					.setScale(0.5,0.5)
@@ -90,6 +96,10 @@ class GameScene extends Phaser.Scene {
 		});
 	}
 
+/*********************************************************************************
+ *  Adds the bowler and positions it
+ *  create the animation
+ */
 	addBowlerAnimation(){
 		this.bowler= this.add.sprite(config.width * 0.55, config.height * 0.39,'bowlerSprite').setScale(0.4);
 		this.bowlerAnimation = this.anims.create({
@@ -99,6 +109,9 @@ class GameScene extends Phaser.Scene {
 		});
 	}
 
+/*********************************************************************************
+ *  sets the initial bowler position
+ */
 	setInitialBowlerPosition() {
 		this.startBowlPosX = config.width * 0.55;
 		this.startBowlPosY = config.height * 0.35;
@@ -110,15 +123,21 @@ class GameScene extends Phaser.Scene {
 		}
 	}
 
+/*********************************************************************************
+ *  play bowler animation
+ *  adds animation complete call back
+ */
 	playBowlerAnimation() {
-		console.warn("bowlerAnimation")
 		this.bowler.play("bowlerAnim");
 		this.bowler.on("animationcomplete", this.triggerBallAnimation, this);
 	}
 
+
+/*********************************************************************************
+ *  start ball animation
+ */
 	triggerBallAnimation() {
 		if(!this.bowlingStarted) {
-		console.warn("triggerBall")
 		this.ball.setPosition(this.startBowlPosX,this.startBowlPosY);
 		this.presentBallTime = new Date().getTime();
 		this.startBallAnimation = true;
@@ -126,6 +145,12 @@ class GameScene extends Phaser.Scene {
 		}
 	}
 
+
+
+/*********************************************************************************
+ *  triggers ball path animation 
+ *  resets the bolwer position and makes it ready for the next ball
+ */
 	playBallAnimation() {
 		this.ballTimeDiff = new Date().getTime() - this.presentBallTime;
 		if(this.ball.y < this.groundBoundary)
@@ -134,6 +159,10 @@ class GameScene extends Phaser.Scene {
 			this.resetBowlingpositions();
 	}
 
+
+/*********************************************************************************
+ *  plays ball path animation 
+ */
 	ballPathMovement() {
 		this.ball.setAlpha(1);
 		if(this.ball.y > this.pitchPoint) {
@@ -151,6 +180,12 @@ class GameScene extends Phaser.Scene {
 		}
 	}
 
+
+
+/*********************************************************************************
+ *  resets the ball position 
+ *  over completion condition
+ */
 	resetBowlingpositions(){
 		this.bowler.setPosition(config.width * 0.55, config.height * 0.39);
 		this.ball.setAlpha(0);

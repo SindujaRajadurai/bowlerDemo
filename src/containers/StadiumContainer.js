@@ -7,7 +7,11 @@ import config from "../config/config";
         this.scene.add.existing(this);
         this.addStadiumElements();
         this.createWicketStump();
-    }
+	}
+	
+/*********************************************************************************
+ *  create and position the stadium elements
+ */
     addStadiumElements(){
         this.middleStadium = this.scene.add.image(config.width * 0.5, config.height * 0.5, "midStadium");
         this.middleStadium.setScale(0.8,1)
@@ -17,6 +21,9 @@ import config from "../config/config";
         this.leftStadium.setScale(0.8,1);
     }
 
+/*********************************************************************************
+ *  generated and play wicket animation
+ */
     playWicketAnimation() {
         this.scene.anims.create({
 			key: 'wicketAnim',
@@ -62,25 +69,45 @@ import config from "../config/config";
         });
         this.wicketStump.setAlpha(1);
         this.wicketStump.play("wicketAnim");
-    }
+	}
 
+
+/*********************************************************************************
+ *  hides the wicket stump during the beginning of the game play
+ */
     hideObj() {
         this.wicketStump.setAlpha(0);
     }
 
+/*********************************************************************************
+ *  destroys the game stump at the end of the over - After 3 ball completion
+ */
     destroyObj() {
         this.wicketStump.destroy();
     }
 
 
+/*********************************************************************************
+ *  destroys the game stump at the end of the over - After 3 ball completion
+ */
     getSafeAreaWidth() {
         return this.middleStadium.width;
     }
 
+
+
+/*********************************************************************************
+ *  destroys the game stump at the end of the over - After 3 ball completion
+ */
     createWicketStump() {
         this.wicketStump = this.scene.add.sprite(config.width * 0.5, config.height * 0.57,"wicketStump").setAlpha(0);
     }
 
+
+
+/*********************************************************************************
+ *  destroys the game stump at the end of the over - After 3 ball completion
+ */
     getSafeAreaHeight() {
         return this.middleStadium.height;
     }
