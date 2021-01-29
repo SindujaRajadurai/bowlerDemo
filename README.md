@@ -6,6 +6,6 @@ Step 1:
    #Install npm in the project folder directory by npm install command.
 
 Step 2:
-    #Run npm run dev command to start the game play. The game should work in localhost:3000
+    #Run npm run dev command to start the game play. The game should load in localhost:3000
 
 
